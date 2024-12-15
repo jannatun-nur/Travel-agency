@@ -1,9 +1,10 @@
 import { useState } from "react";
 import Form from "../Form/Form";
+import { LuCalendarCheck2 } from "react-icons/lu";
 
 
 const PackageCard = ({packages}) => {
- const {title , button , description , image} = packages
+ const {title , button , description , image, availableDates} = packages
 
 
  const [showForm, setShowForm] = useState(false);
@@ -18,7 +19,7 @@ const PackageCard = ({packages}) => {
  };
     return (
         <div>
-           <div className="card bg-gray-200 shadow-2xl shadow-blue-900">
+           <div className="card bg-gray-200 shadow-2xl shadow-blue-900 h-[450px] ">
   <figure className="px-10 pt-10">
     <img
       src={image}
@@ -27,6 +28,8 @@ const PackageCard = ({packages}) => {
   </figure>
   <div className="card-body items-center text-center">
     <h2 className="card-title text-blue-900"> {title} </h2>
+    <p className="text-gray-800 z-50">Available date </p>
+    <p className="text-gray-800 z-50">{availableDates} </p>
     <p className="text-gray-800">  {description} </p>
     <div className="card-actions ">
       <button 
