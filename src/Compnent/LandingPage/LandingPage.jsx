@@ -14,9 +14,10 @@ const LandingPage = () => {
         <div>
       
            <Banner/>
-           <Packages/>
+           
          
           <div className="mx-2">
+          <Packages/>
           <About/>
           </div>
           <Footer/>
