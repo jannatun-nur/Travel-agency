@@ -1,31 +1,43 @@
 
+import Aos from 'aos';
 import logo from '../../../public/images/logo.png'
+import { useEffect } from 'react';
 const Footer = () => {
+
+    useEffect(() => {
+        Aos.init({ duration: 1000 }); 
+    }, []);
+
     return (
-        <div className="mt-10">
-            <footer className="footer bg-base-200  p-10 text-white">
+        <div 
+          data-aos="fade-right"
+        className="mt-10">
+            <footer 
+           
+            
+            className="footer bg-base-200  p-10 text-white">
   <aside>
         <img src={logo} alt="logo"/>
     <p>
-      ACME Industries Ltd.
+      GoTRAVEL
       <br />
-      Providing reliable tech since 1992
+      Providing services since 2003
     </p>
   </aside>
 
   <nav>
-    <h6 className="footer-title">Services</h6>
-    <a className="link link-hover">Branding</a>
-    <a className="link link-hover">Design</a>
-    <a className="link link-hover">Marketing</a>
-    <a className="link link-hover">Advertisement</a>
+    <h6 className="footer-title">Know more</h6>
+    <a className="link link-hover">+6854216</a>
+    <a className="link link-hover">www.gotravel.world.com</a>
+    <a className="link link-hover">GoTravel</a>
+    <a className="link link-hover">https//:gotravel.com</a>
   </nav>
   <nav>
     <h6 className="footer-title">Company</h6>
     <a className="link link-hover">About us</a>
     <a className="link link-hover">Contact</a>
-    <a className="link link-hover">Jobs</a>
-    <a className="link link-hover">Press kit</a>
+    <a className="link link-hover">Blogs</a>
+    <a className="link link-hover">Shares</a>
   </nav>
   <nav>
     <h6 className="footer-title">Legal</h6>

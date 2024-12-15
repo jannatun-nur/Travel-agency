@@ -4,10 +4,16 @@ import { BiSolidOffer } from "react-icons/bi";
 import { GiCommercialAirplane } from "react-icons/gi";
 import { TbWorldCheck } from "react-icons/tb";
 import { MdHotel } from "react-icons/md";
+import { useEffect } from "react";
+import Aos from "aos";
 
 const About = () => {
+
+        useEffect(() => {
+            Aos.init(); 
+        }, []);
     return (
-        <div>
+        <div data-aos="fade-down-left">
         <p className="text-3xl font-bold text-center my-10 text-blue-900">Why choose GO-TRAVEL</p>
            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 ">
             <section className="p-4 bg-gray-200 shadow-2xl shadow-blue-900">
