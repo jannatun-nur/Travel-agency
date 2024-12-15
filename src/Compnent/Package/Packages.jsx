@@ -15,7 +15,7 @@ const Packages = () => {
         <div>
             
 
-            <div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 {
                     packagee.map( packages => <PackageCard key={packages} packages={packages}></PackageCard>)
                 }

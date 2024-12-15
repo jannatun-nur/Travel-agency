@@ -36,8 +36,8 @@ const About = () => {
 
             <section className="p-4 bg-gray-200 shadow-2xl shadow-blue-900">
             <p className= "text-7xl lg:ml-40 ml-24 md:ml-32 text-red-700"><GiCommercialAirplane /></p>
-            <p className="text-2xl  text-center pt-4 text-gray-800 font-semibold">Best Sit Plan</p>
-            <p  className="text-center text-gray-800">High quality sit at the time of travel.</p>
+            <p className="text-2xl  text-center pt-4 text-gray-800 font-semibold">Best Seat Plan</p>
+            <p  className="text-center text-gray-800">High quality seat at the time of travel.</p>
             </section>
 
             <section className="p-4 bg-gray-200 shadow-2xl shadow-blue-900">
