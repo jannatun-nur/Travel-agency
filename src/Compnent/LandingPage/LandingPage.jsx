@@ -1,5 +1,6 @@
 import About from "../About/About";
 import Banner from "../Banner/Banner";
+import Footer from "../Footer/Footer";
 
 
 
@@ -15,7 +16,7 @@ const LandingPage = () => {
           <div className="mx-2">
           <About/>
           </div>
-          
+          <Footer/>
         </div>
     );
 };

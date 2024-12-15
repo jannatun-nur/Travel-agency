@@ -8,6 +8,7 @@ import { MdHotel } from "react-icons/md";
 const About = () => {
     return (
         <div>
+        <p className="text-3xl font-bold text-center my-10 text-blue-900">Why choose GO-TRAVEL</p>
            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 ">
             <section className="p-4 bg-gray-200 shadow-2xl shadow-blue-900">
             <p className= "text-7xl lg:ml-40 ml-24 md:ml-32 text-amber-700"><GrUserWorker /></p>
