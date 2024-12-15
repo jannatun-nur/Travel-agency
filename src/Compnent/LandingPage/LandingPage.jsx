@@ -1,5 +1,6 @@
+import About from "../About/About";
 import Banner from "../Banner/Banner";
-import Experience from "../Experience/Experience";
+
 
 
 
@@ -10,7 +11,10 @@ const LandingPage = () => {
         <div>
       
            <Banner/>
-          <Experience/>
+         
+          <div className="mx-2">
+          <About/>
+          </div>
           
         </div>
     );
