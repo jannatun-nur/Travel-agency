@@ -2,7 +2,7 @@
 
 const ExperienceCard = ({experiences}) => {
 
-    const {name} = experiences;
+    const {name , title , button} = experiences;
     return (
         <div style={{ boxShadow:"0px 4px 6px rgba(0, 0, 0, 0.7)", padding: "10px", textAlign: "center"
             , background: "white" }}>
@@ -20,7 +20,7 @@ const ExperienceCard = ({experiences}) => {
                     </span>
                   ))}
                 
-                <p className="text-gray-800 font-semibold text-xl py-4">${price}</p>
+                <p className="text-gray-800 font-semibold text-xl py-4"> {title}</p>
                 <button className="bg-blue-950 text-white
                 px-5 py-3 font-bold rounded-ee-xl">{button}</button>
             </div>

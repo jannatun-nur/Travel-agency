@@ -10,7 +10,7 @@ const LandingPage = () => {
         <div>
       
            <Banner/>
-           <Experience/>
+          <Experience/>
           
         </div>
     );

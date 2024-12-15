@@ -9,7 +9,8 @@
         "https://via.placeholder.com/300/228b22/ffffff?text=Beach+3",
         "https://via.placeholder.com/300/ff6347/ffffff?text=Beach+4"
       ],
-      "profile":""
+      "profile":"",
+      "button":"View story"
     },
     {
       "name": "Mountain Majesty",
@@ -21,7 +22,8 @@
         "https://via.placeholder.com/300/daa520/ffffff?text=Mountain+3",
         "https://via.placeholder.com/300/5f9ea0/ffffff?text=Mountain+4"
       ],
-      "profile":""
+      "profile":"",
+      "button":"View story"
     },
     {
       "name": "Cultural Wonders",
@@ -33,7 +35,8 @@
         "https://via.placeholder.com/300/9932cc/ffffff?text=City+3",
         "https://via.placeholder.com/300/ffd700/ffffff?text=City+4"
       ],
-      "profile":""
+      "profile":"",
+      "button":"View story"
     },
     {
       "name": "Wildlife Safari",
@@ -45,7 +48,8 @@
         "https://via.placeholder.com/300/8b4513/ffffff?text=Safari+3",
         "https://via.placeholder.com/300/f4a460/ffffff?text=Safari+4"
       ],
-      "profile":""
+      "profile":"",
+      "button":"View story"
     },
     {
       "name": "Urban Escape",
@@ -57,7 +61,8 @@
         "https://via.placeholder.com/300/1e90ff/ffffff?text=Urban+3",
         "https://via.placeholder.com/300/c71585/ffffff?text=Urban+4"
       ],
-      "profile":""
+      "profile":"",
+      "button":"View story"
     }
   ]
   
