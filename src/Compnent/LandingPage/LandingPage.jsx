@@ -1,6 +1,7 @@
 import Banner from "../Banner/Banner";
+import Experience from "../Experience/Experience";
 
-import Packages from "../Package/Packages";
+
 
 
 
@@ -9,7 +10,7 @@ const LandingPage = () => {
         <div>
       
            <Banner/>
-           <Packages/>
+           <Experience/>
           
         </div>
     );
