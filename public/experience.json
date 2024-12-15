@@ -1,0 +1,63 @@
+[
+    {
+      "name": "Serene Escapes",
+      "title": "Tranquil Beach Retreat",
+      "description": "Experience the ultimate relaxation with this beachfront getaway, featuring crystal-clear waters and luxurious accommodations.",
+      "images": [
+        "https://via.placeholder.com/300/1e90ff/ffffff?text=Beach+1",
+        "https://via.placeholder.com/300/ff4500/ffffff?text=Beach+2",
+        "https://via.placeholder.com/300/228b22/ffffff?text=Beach+3",
+        "https://via.placeholder.com/300/ff6347/ffffff?text=Beach+4"
+      ],
+      "profile":""
+    },
+    {
+      "name": "Mountain Majesty",
+      "title": "Alpine Adventure",
+      "description": "Discover breathtaking views and thrilling adventures in this mountain paradise, perfect for nature lovers.",
+      "images": [
+        "https://via.placeholder.com/300/8a2be2/ffffff?text=Mountain+1",
+        "https://via.placeholder.com/300/4682b4/ffffff?text=Mountain+2",
+        "https://via.placeholder.com/300/daa520/ffffff?text=Mountain+3",
+        "https://via.placeholder.com/300/5f9ea0/ffffff?text=Mountain+4"
+      ],
+      "profile":""
+    },
+    {
+      "name": "Cultural Wonders",
+      "title": "Historic City Tour",
+      "description": "Embark on a journey through time with guided tours of ancient landmarks and vibrant cultural experiences.",
+      "images": [
+        "https://via.placeholder.com/300/d2691e/ffffff?text=City+1",
+        "https://via.placeholder.com/300/6495ed/ffffff?text=City+2",
+        "https://via.placeholder.com/300/9932cc/ffffff?text=City+3",
+        "https://via.placeholder.com/300/ffd700/ffffff?text=City+4"
+      ],
+      "profile":""
+    },
+    {
+      "name": "Wildlife Safari",
+      "title": "Savannah Expedition",
+      "description": "Witness the untamed beauty of the wild with this safari experience, offering up-close encounters with majestic animals.",
+      "images": [
+        "https://via.placeholder.com/300/b22222/ffffff?text=Safari+1",
+        "https://via.placeholder.com/300/32cd32/ffffff?text=Safari+2",
+        "https://via.placeholder.com/300/8b4513/ffffff?text=Safari+3",
+        "https://via.placeholder.com/300/f4a460/ffffff?text=Safari+4"
+      ],
+      "profile":""
+    },
+    {
+      "name": "Urban Escape",
+      "title": "Metropolitan Getaway",
+      "description": "Indulge in the energy of city life with this urban escape, featuring iconic landmarks and modern luxuries.",
+      "images": [
+        "https://via.placeholder.com/300/2e8b57/ffffff?text=Urban+1",
+        "https://via.placeholder.com/300/ff8c00/ffffff?text=Urban+2",
+        "https://via.placeholder.com/300/1e90ff/ffffff?text=Urban+3",
+        "https://via.placeholder.com/300/c71585/ffffff?text=Urban+4"
+      ],
+      "profile":""
+    }
+  ]
+  

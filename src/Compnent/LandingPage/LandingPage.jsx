@@ -1,5 +1,5 @@
 import Banner from "../Banner/Banner";
-import Form from "../Form/Form";
+
 import Packages from "../Package/Packages";
 
 
@@ -10,7 +10,7 @@ const LandingPage = () => {
       
            <Banner/>
            <Packages/>
-           <Form/>
+          
         </div>
     );
 };
