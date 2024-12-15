@@ -3,12 +3,12 @@ import Form from "../Form/Form";
 
 
 const PackageCard = ({packages}) => {
- const {title , button , description} = packages
+ const {title , button , description , image} = packages
 
 
  const [showForm, setShowForm] = useState(false);
 
- // Function to toggle form visibility
+ //  form visibility
  const handleBookNow = () => {
    setShowForm(true);
  };
@@ -21,7 +21,7 @@ const PackageCard = ({packages}) => {
            <div className="card bg-gray-200 shadow-2xl shadow-blue-900">
   <figure className="px-10 pt-10">
     <img
-      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+      src={image}
       alt="image"
       className="rounded-xl" />
   </figure>
