@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import PackageCard from "./PackageCard";
 
 
-const Package = () => {
+const Packages = () => {
 
-    const [package, setPackage] = useState([])
+    const [packagee, setPackage] = useState([])
 
     useEffect( ()=>{
         fetch('package.json')
@@ -17,11 +17,11 @@ const Package = () => {
 
             <div>
                 {
-                    package.map( packages => <PackageCard key={packages} packages={packages}></PackageCard>)
+                    packagee.map( packages => <PackageCard key={packages} packages={packages}></PackageCard>)
                 }
             </div>
         </div>
     );
 };
 
-export default Package;
+export default Packages;

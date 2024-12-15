@@ -1,9 +1,10 @@
 
 
-const PackageCard = () => {
+const PackageCard = ({packages}) => {
+ const {title } = packages
     return (
         <div>
-            
+            {title}
         </div>
     );
 };
