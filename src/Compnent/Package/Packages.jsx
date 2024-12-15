@@ -13,7 +13,7 @@ const Packages = () => {
     },[])
     return (
         <div>
-            <p>Book your favorite trip</p>
+            <p className="text-3xl text-center text-blue-900 font-semibold mt-10">Book your favorite trip</p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                 {
