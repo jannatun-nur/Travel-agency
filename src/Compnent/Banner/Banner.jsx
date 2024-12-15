@@ -1,12 +1,14 @@
 
+import Navbar from '../Navbar';
 import './banner.css'
 
 
 const Banner = () => {
     return (
        
-           <div className="landing-page">
-        <div className="flex">
+           <div className="landing-page ">
+           <Navbar/>
+        <div className="flex z-10">
           <div className="image-container left">
            
           </div>
